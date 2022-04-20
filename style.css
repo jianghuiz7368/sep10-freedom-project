@@ -2,7 +2,7 @@
 
 body {
     margin-top: 72px;
-    background: #BF211E
+    background: #FAC05E
 ;
    
 } 
@@ -15,16 +15,18 @@ h4 {
 h2 {
     Padding-top:50px;
 }
-.virtually {
-    background-color: #197BBD;
-}
-.physically {
-    background-color:brown;
-}
+/*.virtually {*/
+/*    background-color: #197BBD;*/
+/*}*/
+/*.physically {*/
+/*    background-color:brown;*/
+/*}*/
 .title {
     margin: 100px 100px 100px 10px;
     padding-bottom: 100px;
-}p {
+}
+
+p {
     font-size: 17px;
 }
 #mainNav {
@@ -524,10 +526,6 @@ h2 {
 
 
 
-.title {
-  background: url('img/ad.jpeg')center;
-
-}
 .screen{
   color: black;
   background:white;
