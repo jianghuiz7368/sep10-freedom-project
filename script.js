@@ -41,5 +41,9 @@
                 navbarToggler.click();
             }
         });
+         new SimpleLightbox({
+        elements: '#portfolio a.portfolio-box'
+    });
+
     });
     
