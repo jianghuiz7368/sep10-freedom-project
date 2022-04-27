@@ -198,6 +198,22 @@
         });
     });
     
+  document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+	    var environment = ["egypt", "checkerboard", "forest", "goaland", "yavapai", "goldmine", "threetowers", "poison", "arches", "tron", "japan", "dream", "volcano", "starry", "osiris"]; 
+		var bool = [true, false]
+		var item = environment[Math.floor(Math.random() * environment.length)];
+		
+		document.getElementById('cube').setAttribute('visible', bool[Math.floor(Math.random() * bool.length)]);
+        document.getElementById('sphere').setAttribute('color', 'pink');
+		
+		var place = 'preset: '+item;
+		console.log(place);
+		document.getElementById('env').setAttribute('environment', place);
+		}
+	}	
+
+	  
             
         </script>
     </body>
