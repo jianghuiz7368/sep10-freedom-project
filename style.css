@@ -13,12 +13,7 @@ h4 {
 h2 {
     Padding-top:50px;
 }
-/*.virtually {*/
-/*    background-color: #197BBD;*/
-/*}*/
-/*.physically {*/
-/*    background-color:brown;*/
-/*}*/
+
 .top-background {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/advertising.jpeg');
     height: 970px;
@@ -45,6 +40,8 @@ h2 {
 
 p {
     font-size: 17px;
+    text-indent: 10px;
+    line-height: 1.8;
 }
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -559,12 +556,11 @@ ul {
   left: 0;
   z-index: 1030;
 }
-/*.apps {*/
-/*  height: 20%;*/
-/*}*/
+
 #partB {
   Margin-top: 70px;
 }
+
 footer{
   background-color: black;
   color: white;
