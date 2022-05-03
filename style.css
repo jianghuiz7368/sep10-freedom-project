@@ -2,7 +2,7 @@
 
 body {
     /*margin-top: 72px;*/
-    background: #FAC05E
+    background: #393E41
 ;
    
 } 
@@ -36,6 +36,7 @@ h2 {
   border: solid;
   border-radius:20px;
   margin-top: 150px;
+  background-color:#DFDFDF;
 }
 
 p {
@@ -562,6 +563,16 @@ ul {
 }
 
 footer{
-  background-color: black;
+  background-color: #22181C;
   color: white;
+  margin-top: 90px;
+}
+.links {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display:block;
+  
 }
